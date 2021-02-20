@@ -407,4 +407,6 @@ int main(int argc, char** argv){
     getAllDeviceInfo();
     grayscaleFilter_C_impl();
     grayscaleFilter_OpenCL_impl(platform, device);
+    
+    return 0;
 }
